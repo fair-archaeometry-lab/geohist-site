@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 180">
+  <!-- Himmel -->
+  <rect x="0" y="0" width="320" height="60" fill="#e6f3ff"/>
+  <!-- Bodenoberfläche -->
+  <rect x="0" y="60" width="320" height="20" fill="#c8d4a3"/>
+  <!-- Landschaft -->
+  <path d="M0 60 Q80 30 160 50 T320 40 L320 60 Z" fill="#b3c58f"/>
+
+  <!-- Fundstelle: kleines Haus/Schacht -->
+  <rect x="60" y="38" width="22" height="16" fill="#7a4f2b"/>
+  <rect x="66" y="42" width="10" height="8" fill="#f5f5f7"/>
+  <line x1="71" y1="54" x2="71" y2="80" stroke="#7a4f2b" stroke-width="3"/>
+
+  <!-- Schichten -->
+  <rect x="0" y="80" width="320" height="24" fill="#f2d9b1"/>
+  <rect x="0" y="104" width="320" height="24" fill="#d0b28c"/>
+  <rect x="0" y="128" width="320" height="24" fill="#b18a68"/>
+  <rect x="0" y="152" width="320" height="28" fill="#8b5c3b"/>
+
+  <!-- Lagerstättenpunkte -->
+  <circle cx="140" cy="96" r="4" fill="#c0392b"/>
+  <circle cx="220" cy="120" r="4" fill="#c0392b"/>
+  <circle cx="90" cy="140" r="4" fill="#c0392b"/>
+
+  <!-- Probenbohrung -->
+  <line x1="220" y1="64" x2="220" y2="120" stroke="#34495e" stroke-width="2" stroke-dasharray="4 3"/>
+  <circle cx="220" cy="64" r="4" fill="#34495e"/>
+
+  <!-- Legende -->
+  <rect x="200" y="10" width="110" height="40" rx="4" fill="#ffffff" stroke="#d0d7de"/>
+  <circle cx="210" cy="22" r="4" fill="#c0392b"/>
+  <text x="220" y="24" font-size="8" fill="#333">Lagerstätte</text>
+  <line x1="206" y1="34" x2="214" y2="34" stroke="#34495e" stroke-width="2" stroke-dasharray="4 3"/>
+  <text x="220" y="36" font-size="8" fill="#333">Probe / Bohrung</text>
+</svg>

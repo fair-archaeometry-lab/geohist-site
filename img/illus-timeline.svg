@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 140">
+  <rect x="0" y="0" width="260" height="140" rx="8" fill="#ffffff"/>
+  <line x1="20" y1="80" x2="240" y2="80" stroke="#005f83" stroke-width="2"/>
+  <!-- Phasen -->
+  <circle cx="40" cy="80" r="6" fill="#e67e22"/>
+  <circle cx="100" cy="80" r="6" fill="#3498db"/>
+  <circle cx="160" cy="80" r="6" fill="#2ecc71"/>
+  <circle cx="220" cy="80" r="6" fill="#9b59b6"/>
+  <!-- Labels -->
+  <text x="30" y="60" font-size="8" fill="#333">Setup</text>
+  <text x="90" y="60" font-size="8" fill="#333">Strategie</text>
+  <text x="150" y="60" font-size="8" fill="#333">Discovery</text>
+  <text x="210" y="60" font-size="8" fill="#333">MVP</text>
+</svg>
